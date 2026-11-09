@@ -1,0 +1,30 @@
+{
+  "name": "veto-agent",
+  "version": "1.0.0",
+  "description": "The Veto Agent - Auth0 Token Vault & Asynchronous Authorization (CIBA) demo with GitHub integration",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "veto-agent": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "cli": "node bin/cli.js",
+    "demo": "MODE=mock node bin/cli.js",
+    "approver": "node bin/mock-approver.js",
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "auth0",
+    "ciba",
+    "token-vault",
+    "github",
+    "security",
+    "agent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  }
+}
